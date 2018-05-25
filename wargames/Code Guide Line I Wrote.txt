@@ -1,0 +1,55 @@
+War Game Console App: 
+
+Player Class:
+Army Points
+*Users Get Army Points By Destroying The Enemy Bases,
+*Having A Soldier Rank Up
+*Surviving A Day
+Buy Method 
+*Allows Users To Open Up Reinforcement Shop
+Number Of Army Bases
+Number Of Soldiers
+
+
+Soldier Class:
+Soldier Rank
+Health
+Stamina
+AttackDmg
+Weapon
+
+
+
+Inherited Classes From Soldiers:
+SGT -
+Unique Weapon That Deals The Most Damage 
+Attack Method
+
+
+COL -
+Unique Weapon That Deals The Second Most Damage
+Attack Method
+
+PVT -
+Unique Weapon That Deals The Least Amount Of Damage
+Attack Method
+
+Army Base Class:
+Health
+
+Inherited Classes From Army Base:
+
+Enemy Base -
+Health
+
+Reinforcements(Shop) Class:
+SGT
+COL
+PVT
+
+Battle Field Class: 
+Date Time Method
+Add Hours Method That Activates When A User Does A Task
+Add Day Method Depending On How Many Hours Have Past 
+*This Lets A Users Type Of Soldier Rank Up If The Same One Stayed Alive
+
